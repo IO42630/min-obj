@@ -2,6 +2,8 @@ package com.olexyn;
 
 import org.junit.Test;
 
+import com.olexyn.min.obj.InstantCube;
+
 public class CubeTest {
 
 	@Test

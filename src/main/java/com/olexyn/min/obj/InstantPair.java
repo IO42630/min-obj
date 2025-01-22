@@ -1,19 +1,17 @@
-package com.olexyn;
+package com.olexyn.min.obj;
+
+import java.time.Instant;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
-
-import java.time.Instant;
 
 @Getter
 @Setter
 @AllArgsConstructor
 public class InstantPair {
 
-    Instant instant;
-    long value;
-
-
+	Instant instant;
+	long value;
 
 }
