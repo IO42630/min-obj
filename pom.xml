@@ -5,17 +5,20 @@
 	<parent>
 		<groupId>com.olexyn</groupId>
 		<artifactId>min-root</artifactId>
-		<version>17.0.2</version>
+		<version>25.0.2</version>
 	</parent>
 	<artifactId>min-obj</artifactId>
-	<version>0.2</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
+	<name>min-obj</name>
+	<description>Custom Java Objects.</description>
+    <url>https://github.com/IO42630/min-obj</url>
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
 				<groupId>com.olexyn</groupId>
 				<artifactId>min-bom</artifactId>
-				<version>17.0.6</version>
+				<version>25.0.1</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
@@ -31,9 +34,8 @@
 			<artifactId>lombok</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<scope>test</scope>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
 		</dependency>
 	</dependencies>
 </project>

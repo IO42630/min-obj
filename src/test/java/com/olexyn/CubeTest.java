@@ -1,10 +1,13 @@
 package com.olexyn;
 
-import org.junit.Test;
 
 import com.olexyn.min.obj.InstantCube;
+import org.junit.jupiter.api.Test;
+
 
 public class CubeTest {
+
+
 
 	@Test
 	public void makeCube() {
